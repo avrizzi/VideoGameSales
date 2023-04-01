@@ -40,16 +40,16 @@ Directory Structure
 The directory structure for this project is as follows:
 
 /videogamessales/
-|-- data/
-|   `-- data_documentation.md
-|-- munge/
-|   `-- data_transformations.md
-|-- src/
-|   `-- data_aggregations.md
-|-- reports/
-|   |-- video_games_sales.xlsx
-|   `-- visualizations/
-|       `-- visualization.png
+-- data/
+   `-- data_documentation.md
+-- munge/
+   `-- data_transformations.md
+-- src/
+   `-- data_aggregations.md
+-- reports/
+   -- video_games_sales.xlsx
+   `-- visualizations/
+       `-- visualization.png
 `-- README.md
 
 - The data folder contains the data_documentation.md file that documents the raw data set's attributes and instructions on how to retrieve it.
