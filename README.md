@@ -1,18 +1,18 @@
-Video Games Sales Analysis
+**Video Games Sales Analysis**
 
-This project is an archive of the analysis performed on the Video Games Sales data set, which can be found on Kaggle here. The data set contains information on video games' sales and ratings, including platforms, genres, publishers, and other attributes.
+This project is an archive of the analysis conducted on the Kaggle data set Video Games Sales. The data collection includes information on video game sales and ratings, as well as platforms, genres, publishers, and other characteristics.
 
-Problem Description
+**Description of the Problem**
 
-The purpose of this analysis is to gain insights into video game sales and ratings. The analysis aims to answer questions such as:
+The goal of this investigation is to learn more about video game sales and ratings. The analysis seeks to provide answers to problems such as:
 
-- What are the best-selling platforms?
-- Which genres are the most popular?
-- Who are the top publishers in terms of sales?
-- What is the distribution of ratings for games?
-- Is there a correlation between sales and ratings?
+- What are the most popular platforms?
+- What are the most popular genres?
+- Who are the most successful publishers in terms of sales?
+- What is the distribution of game ratings?
+- Is there a link between sales and ratings?
 
-Data Set Overview
+**Data Set Overview**
 
 The data set contains 16,598 rows and 16 columns. The columns are:
 
@@ -35,10 +35,10 @@ The data set contains 16,598 rows and 16 columns. The columns are:
 
 The data set has missing values, duplicates, and inconsistent data types, which require cleaning and preprocessing before analysis.
 
-Directory Structure
+**Directory Structure**
 
 The directory structure for this project is as follows:
-
+```
 /videogamessales/
 |-- data/
 |   `-- data_documentation.md
@@ -47,48 +47,37 @@ The directory structure for this project is as follows:
 |-- src/
 |   `-- data_aggregations.md
 |-- reports/
-|   |-- video_games_sales.xlsx
-|   `-- visualizations/
-|       `-- visualization.png
+|   `-- Video Game Sales Data_Module 6.xlsx
 `-- README.md
-
+```
 - The data folder contains the data_documentation.md file that documents the raw data set's attributes and instructions on how to retrieve it.
 - The munge folder contains the data_transformations.md file, which documents the transformations applied to the data set.
 - The src folder contains the data_aggregations.md file, which documents the aggregations applied to the data set.
 - The reports folder contains the video_games_sales.xlsx file, which includes the visualizations created in the module 6 assignment. The visualizations are also saved in the visualizations folder within the reports folder.
 - The README.md file contains a description of the problem analyzed and the insights found.
 
-Data Preprocessing
+**Data Preprocessing**
 
-The data set requires preprocessing to address missing values, duplicates, and inconsistent data types. The preprocessing steps include:
+Preprocessing is required to resolve missing values, duplicates, and mismatched data types in the data collection. Preprocessing stages include:
 
-- Dropping columns that are not relevant to the analysis.
-- Handling missing values by dropping rows or filling them with appropriate values.
-- Handling duplicates by dropping or keeping them, depending on the context.
-- Converting data types to the appropriate format.
+- Removing columns that are irrelevant to the analysis.
+- Managing missing data by removing rows or filling them with relevant values.
+- Managing duplicates by removing or maintaining them based on the context.
+- Transforming data types to the proper format.
 
-Data Aggregations
+**Data Aggregation**
 
-The aggregated data set includes the total sales for each platform, genre, and publisher. The following aggregations were performed:
+All sales for each platform, genre, and publisher are included in the aggregated data set. The following aggregations were performed:
 
-- Grouping the data set by platform, genre, and publisher.
-- Calculating the sum of sales for each group.
-- Calculating the mean and standard deviation of ratings for each group.
+- Sorting the data set by platform, genre, and publisher.
+- Determining the total sales for each category.
 
-Key Findings
+**Key Findings**
 
-The analysis of the Video Games Sales data set revealed several insights:
+The examination of the Video Game Sales data set yielded numerous insights:
 
-- The best-selling platform is the PlayStation 2, followed by the Xbox 360 and PlayStation 3.
+- The PlayStation 2 is the most popular platform, followed by the Xbox 360 and PlayStation 3.
 - The most popular genre is Action, followed by Sports and Shooter.
-- The top three publishers in terms of sales are Electronic Arts, Activision, and Nintendo.
-- The majority of games in the data set have ratings between 4 and 8.
-- There is a positive correlation between sales and ratings.
-
-Conclusion
-
-This project archives the analysis of the Video Games Sales data set, which includes preprocessing, aggregations, and visualizations. The analysis provides insights into video game sales and ratings that can be useful for stakeholders in the video game industry.
-
-Future analysts can use this archive to review and extend the analysis. They can replicate the preprocessing, aggregations, and visualizations to explore other research questions or to test different hypotheses.
-
-Overall, this project demonstrates the importance of documenting and archiving data analysis to ensure reproducibility and transparency in research.
+- Electronic Arts, Activision, and Nintendo are the top three game publishers in terms of sales.
+- The majority of the games in the data set have ratings ranging from 4 to 8.
+- There is a positive relationship between sales and ratings.
