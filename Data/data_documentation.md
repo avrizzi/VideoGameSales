@@ -41,3 +41,14 @@ TBLPROPERTIES("skip.header.line.count"="1");
 SELECT * FROM sales;
 ```
 4)	Inspect the data were loaded properly using the SQL query interface
+
+Screenshots for reference:
+
+![1 - Create Table](https://user-images.githubusercontent.com/128261514/229655864-443ebea0-3a61-4aea-9ad9-f9cea5bc94ad.png)
+![2 - TABLE - Columns 1](https://user-images.githubusercontent.com/128261514/229655866-0f43dd8d-176f-4bbb-9da8-05362350aaa7.png)
+![2 - TABLE - Columns 2](https://user-images.githubusercontent.com/128261514/229655867-e41bb503-b8a8-4bd3-a57c-dda90f639195.png)
+![3 - Inspect  Query 1](https://user-images.githubusercontent.com/128261514/229655868-3d04791f-d833-4096-999a-3c1880b87130.png)
+![3 - Inspect  Query 2](https://user-images.githubusercontent.com/128261514/229655870-5438c34d-13f1-42b4-af5e-e66cb7c917e4.png)
+![TABLE - DDL 1](https://user-images.githubusercontent.com/128261514/229655872-2e804317-d030-40ba-93d8-2408631d141f.png)
+![TABLE - DDL 2](https://user-images.githubusercontent.com/128261514/229655874-bccdd2ce-6972-40cb-a4ac-ab451ff36b5c.png)
+![TABLE - Statistics](https://user-images.githubusercontent.com/128261514/229655875-db273bf8-5b84-48cc-bb29-d07c37bf2267.png)
